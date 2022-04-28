@@ -21,3 +21,11 @@ body {
   font-family: "Smokum", cursive;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.filter-section {
+  background-color: var(--maize-crayola);
+}
+
+.filter-btn {
+  min-width: 150px;
+}

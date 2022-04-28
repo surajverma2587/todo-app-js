@@ -31,7 +31,55 @@
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
-    <h1>Hello</h1>
+    <main class="container">
+      <!-- sections for filters -->
+      <section class="d-flex justify-content-center p-4 border filter-section">
+        <button
+          type="button"
+          class="btn btn-primary mx-2 filter-btn"
+          id="view-all-btn"
+        >
+          View All
+        </button>
+        <button
+          type="button"
+          class="btn btn-primary mx-2 filter-btn"
+          id="view-completed-btn"
+        >
+          View Completed
+        </button>
+      </section>
+
+      <!-- section for form -->
+      <section class="my-4 border p-4">
+        <h1 class="text-center mb-4">Create Todo Form</h1>
+        <form id="todo-form">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="todo-task-input"
+              placeholder="Enter todo task"
+            />
+          </div>
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control"
+              id="due-date-input"
+              placeholder="Enter due date"
+            />
+          </div>
+          <div class="mb-3 text-center">
+            <button type="submit" class="btn btn-primary">
+              Create Todo Item
+            </button>
+          </div>
+        </form>
+      </section>
+
+      <!-- section for todo items -->
+    </main>
 
     <!-- js for bootstrap -->
     <script
